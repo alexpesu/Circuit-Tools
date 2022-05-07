@@ -1,0 +1,34 @@
+function patratul_intens(I_5, I_6, I_7, I_8)
+  I_4 = I_6 + I_7 - I_8;
+  I_1 = I_6 + I_5;
+  I_3 = I_4 + I_5;
+  I_2 = - I_1 - I_7;
+  disp("ASTA E VALOAREA LUI I1"), disp(I_1);
+  disp("ASTA E VALOAREA LUI I2"), disp(I_2);
+  disp("ASTA E VALOAREA LUI I3"), disp(I_3);
+  disp("ASTA E VALOAREA LUI I4"), disp(I_4);
+  disp("CE MASOARA UN AMPERMETRU PE LATURA 1"), disp(abs(I_1));
+  disp("CE MASOARA UN AMPERMETRU PE LATURA 2"), disp(abs(I_2));
+  disp("CE MASOARA UN AMPERMETRU PE LATURA 3"), disp(abs(I_3));
+  disp("CE MASOARA UN AMPERMETRU PE LATURA 4"), disp(abs(I_4));
+  disp("CE MASOARA UN AMPERMETRU PE LATURA 5"), disp(abs(I_5));
+  disp("CE MASOARA UN AMPERMETRU PE LATURA 6"), disp(abs(I_6));
+  disp("CE MASOARA UN AMPERMETRU PE LATURA 7"), disp(abs(I_7));
+  disp("CE MASOARA UN AMPERMETRU PE LATURA 8"), disp(abs(I_8));
+  disp("VALOAREA MAXIMA A CURENTULUI DIN LATURA 1"), disp(abs(I_1)*sqrt(2));
+  disp("VALOAREA MAXIMA A CURENTULUI DIN LATURA 2"), disp(abs(I_2)*sqrt(2));
+  disp("VALOAREA MAXIMA A CURENTULUI DIN LATURA 3"), disp(abs(I_3)*sqrt(2));
+  disp("VALOAREA MAXIMA A CURENTULUI DIN LATURA 4"), disp(abs(I_4)*sqrt(2));
+  disp("VALOAREA MAXIMA A CURENTULUI DIN LATURA 5"), disp(abs(I_5)*sqrt(2));
+  disp("VALOAREA MAXIMA A CURENTULUI DIN LATURA 6"), disp(abs(I_6)*sqrt(2));
+  disp("VALOAREA MAXIMA A CURENTULUI DIN LATURA 7"), disp(abs(I_7)*sqrt(2));
+  disp("VALOAREA MAXIMA A CURENTULUI DIN LATURA 8"), disp(abs(I_8)*sqrt(2));
+  disp("CARE ESTE FAZA INITIALA A CURENTULUI DIN LATURA 1"),disp(angle(I_1));
+  disp("CARE ESTE FAZA INITIALA A CURENTULUI DIN LATURA 2"),disp(angle(I_2));
+  disp("CARE ESTE FAZA INITIALA A CURENTULUI DIN LATURA 3"),disp(angle(I_3));
+  disp("CARE ESTE FAZA INITIALA A CURENTULUI DIN LATURA 4"),disp(angle(I_4));
+  disp("CARE ESTE FAZA INITIALA A CURENTULUI DIN LATURA 5"),disp(angle(I_5));
+  disp("CARE ESTE FAZA INITIALA A CURENTULUI DIN LATURA 6"),disp(angle(I_6));
+  disp("CARE ESTE FAZA INITIALA A CURENTULUI DIN LATURA 7"),disp(angle(I_7));
+  disp("CARE ESTE FAZA INITIALA A CURENTULUI DIN LATURA 8"),disp(angle(I_8));
+endfunction

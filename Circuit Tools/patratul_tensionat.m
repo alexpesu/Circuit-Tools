@@ -1,0 +1,34 @@
+function patratul_tensionat(U_1, U_2, U_3, U_4)
+  U_5 = - U_2 - U_3;
+  U_6 = U_3 - U_1;
+  U_7 = - U_5 - U_4;
+  U_8 = U_6 - U_4;
+  disp("ASTA E VALOAREA LUI U5"), disp(U_5);
+  disp("ASTA E VALOAREA LUI U6"), disp(U_6);
+  disp("ASTA E VALOAREA LUI U7"), disp(U_7);
+  disp("ASTA E VALOAREA LUI U8"), disp(U_8);
+  disp("CE MASOARA UN VOLTMETRU PE LATURA 1"), disp(abs(U_1));
+  disp("CE MASOARA UN VOLTMETRU PE LATURA 2"), disp(abs(U_2));
+  disp("CE MASOARA UN VOLTMETRU PE LATURA 3"), disp(abs(U_3));
+  disp("CE MASOARA UN VOLTMETRU PE LATURA 4"), disp(abs(U_4));
+  disp("CE MASOARA UN VOLTMETRU PE LATURA 5"), disp(abs(U_5));
+  disp("CE MASOARA UN VOLTMETRU PE LATURA 6"), disp(abs(U_6));
+  disp("CE MASOARA UN VOLTMETRU PE LATURA 7"), disp(abs(U_7));
+  disp("CE MASOARA UN VOLTMETRU PE LATURA 8"), disp(abs(U_8));
+  disp("VALOAREA MAXIMA A TENSIUNII DIN LATURA 1"), disp(abs(U_1)*sqrt(2));
+  disp("VALOAREA MAXIMA A TENSIUNII DIN LATURA 2"), disp(abs(U_2)*sqrt(2));
+  disp("VALOAREA MAXIMA A TENSIUNII DIN LATURA 3"), disp(abs(U_3)*sqrt(2));
+  disp("VALOAREA MAXIMA A TENSIUNII DIN LATURA 4"), disp(abs(U_4)*sqrt(2));
+  disp("VALOAREA MAXIMA A TENSIUNII DIN LATURA 5"), disp(abs(U_5)*sqrt(2));
+  disp("VALOAREA MAXIMA A TENSIUNII DIN LATURA 6"), disp(abs(U_6)*sqrt(2));
+  disp("VALOAREA MAXIMA A TENSIUNII DIN LATURA 7"), disp(abs(U_7)*sqrt(2));
+  disp("VALOAREA MAXIMA A TENSIUNII DIN LATURA 8"), disp(abs(U_8)*sqrt(2));
+  disp("CARE ESTE FAZA INITIALA A TENSIUNII DIN LATURA 1"),disp(angle(U_1));
+  disp("CARE ESTE FAZA INITIALA A TENSIUNII DIN LATURA 2"),disp(angle(U_2));
+  disp("CARE ESTE FAZA INITIALA A TENSIUNII DIN LATURA 3"),disp(angle(U_3));
+  disp("CARE ESTE FAZA INITIALA A TENSIUNII DIN LATURA 4"),disp(angle(U_4));
+  disp("CARE ESTE FAZA INITIALA A TENSIUNII DIN LATURA 5"),disp(angle(U_5));
+  disp("CARE ESTE FAZA INITIALA A TENSIUNII DIN LATURA 6"),disp(angle(U_6));
+  disp("CARE ESTE FAZA INITIALA A TENSIUNII DIN LATURA 7"),disp(angle(U_7));
+  disp("CARE ESTE FAZA INITIALA A TENSIUNII DIN LATURA 8"),disp(angle(U_8));
+endfunction

@@ -1,0 +1,42 @@
+LA PROBLEME CU ELEMENT PE FIR (rezistor/bobina/condensator)
+
+-functia se apeleaza astfel 
+
+ 	am_"numele elementului"_"valoarea data(intensitate/tensiune)"_"ordinul de marime (DOAR LA BOBINA / CONDENSATOR)"
+	
+	exemplu: am_bobina_intensitate_miuH
+		 am_rezistor_intensitate
+
+-argumentele se dau in urmatoarea ordine
+	
+	(valoarea lui R/L/C (nu inmultiti cu 10 ^ -3/-6, programul face asta deja), 'sin' / 'cos' , coeficientul functiei sin/cos, valoarea adunata la wt, f)
+
+	exemplu: am_bobina_tensiune_miliH(3.9,'sin',11.3*sqrt(2),-2.1,77)
+
+functia va intoarce orice valoare ar cere problema, trebuie doar sa o selectati pe cea necesara
+	
+	exemplu: am_bobina_tensiune_miliH(3.9,'sin',11.3*sqrt(2),-2.1,77)
+	VALOAREA MAXIMA A INTENSITATII ESTE
+ 	0.00000 + 8.46951i
+	VALOAREA EFECTIVA A INTENSITATII ESTE
+ 	0.00000 + 5.98885i
+	FAZA INITIALA A INTENSITATII ESTE
+ 	2.6124
+	PUTEREA COMPLEXA ESTE
+ 	58.983 + 33.178i
+	PUTEREA APARENTA ESTE
+ 	67.674
+	PUTEREA ACTIVA ESTE
+	0
+	PUTEREA REACTIVA ESTE
+ 	67.674
+
+LA PROBLEME CU PATRAT DE INTENSITATI/TENSIUNI
+
+-2 functii ("patrat_intens" /"patrat_tensionat" (please calm him down))
+
+argumentele date sunt, in ordine, intensitatile/tensiunile date de problema
+
+!
+
+	
